@@ -1,0 +1,46 @@
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+.nav-link{
+    position: relative;
+}
+.nav-link:hover{
+    text-decoration: underline;
+}
+.carousel {
+    position:relative; 
+    z-index: 1; 
+}
+
+.carousel-inner img {
+    max-height: 640px;
+    object-fit: cover;
+    filter: brightness(0.75);
+    width: 100%; 
+    height: auto; 
+}
+.carousel-caption {
+    position: absolute;
+    top: 70px; /* Adjust this value as needed */
+    right: 45px; /* Adjust this value as needed */
+    text-align: right; /* Aligns the text to the right */
+    color: #fff;
+    padding: 10px; /* Adds some padding around the text */
+    border-radius: 5px; /* Optional: rounds the corners of the background */
+}
+
+.carousel-caption h3 {
+    font-size:1.15rem; /* Adjust the font size as needed */
+    margin: 0; 
+    font-style:italic;
+}
+
+.body{
+    height: 5000px;
+    overflow-x: hidden;
+}
